@@ -1,0 +1,65 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav id="navbar">
+        <div class="nav-content">
+            <h1 class="logo">Portfolio</h1>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#certificates">projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm Anognya Reddy</h1>
+            <p>AI/ML Engineer in Training</p>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>I am a B.Tech 2nd year student of CSE with specialization in AIML at SR University.
+            <br> I'm passionate about artificial intelligence and machine learning.</p>
+    </section>
+
+    <section id="certificates" class="projects">
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>Smart Attendance System</h3>
+                    <p>Face recognition based attendance system using Python and OpenCV</p>
+                </div>
+                <div class="project-card">
+                    <h3>Weather Prediction App</h3>
+                    <p>ML-based weather forecasting using historical data and scikit-learn</p>
+                </div>
+                <div class="project-card">
+                    <h3>Student Management System</h3>
+                    <p>Web application using HTML, CSS, JavaScript and MySQL database</p>
+                </div>
+            </div>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
